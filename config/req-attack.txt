@@ -1,0 +1,6 @@
+pip install matplotlib
+pip install opencv-python
+pip install torch torchvision
+pip install torchattacks==2.12.2
+pip install colour-demosaicing==0.1.6
+pip install colour-science==0.3.16

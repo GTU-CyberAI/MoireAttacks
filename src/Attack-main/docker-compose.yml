@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    container_name: python_gpu_app
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - /home/huskoc/datasets/moire_humans:/moire
+      - /home/huskoc/datasets/selected_humans:/selected_humans
